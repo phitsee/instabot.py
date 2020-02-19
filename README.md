@@ -41,13 +41,13 @@ python3 -m pip install git+https://github.com/instabot-py/instabot.py
 ```
 **Configuration** ⚙️
 
-Run `instabot-py --create-config` command and a default configuration will be created in your current directory: `instabot.config.yml`. It should be modified according the needs.
+Run `instabot_py --create-config` command and a default configuration will be created in your current directory: `instabot.config.yml`. It should be modified according the needs.
 You can also run the bot with a different configuration file using `-c` flag: `instabot-py -c myconfiguration.yml`
 
 **Start the bot** 🏁
 
-  - `instabot-py` or `python3 -m instabot_py`
-  - `instabot-py -c myconfiguration.yml` or `python3 -m instabot_py -c myconfiguration.yml`
+  - `instabot_py` or `python3 -m instabot_py`
+  - `instabot_py -c myconfiguration.yml` or `python3 -m instabot_py -c myconfiguration.yml`
 
 
 The `%username%.db` file contains records of posts the bot has liked, and the users who has been followed/unfollowed.
